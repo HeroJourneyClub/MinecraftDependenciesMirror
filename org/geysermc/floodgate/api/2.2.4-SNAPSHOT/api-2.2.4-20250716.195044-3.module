@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.geysermc.floodgate",
+    "module": "api",
+    "version": "2.2.4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.geysermc.geyser",
+          "module": "common",
+          "version": {
+            "requires": "2.2.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.geysermc.cumulus",
+          "module": "cumulus",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.geysermc.event",
+          "module": "events",
+          "version": {
+            "requires": "1.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-2.2.4-SNAPSHOT.jar",
+          "url": "api-2.2.4-SNAPSHOT.jar",
+          "size": 19764,
+          "sha512": "c0bd3c35a14703253c6f5f74eeb68d3bf24281d304310d787f9a9400c48db310cc453d3f0560a932cb259e0ba9a84804cef187ee15864eb305c08397ee076e8a",
+          "sha256": "8a0415817a5bef61c93977d8f1361d58b36aa8cc2db200e376cb94a2702b43b3",
+          "sha1": "7ed0417aa46a93b448fd5f3c9904ee3dd0184ff4",
+          "md5": "3fc244a67ef2ac669434fd9ec8cdd218"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.geysermc.geyser",
+          "module": "common",
+          "version": {
+            "requires": "2.2.1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.geysermc.cumulus",
+          "module": "cumulus",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.geysermc.event",
+          "module": "events",
+          "version": {
+            "requires": "1.1-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-2.2.4-SNAPSHOT.jar",
+          "url": "api-2.2.4-SNAPSHOT.jar",
+          "size": 19764,
+          "sha512": "c0bd3c35a14703253c6f5f74eeb68d3bf24281d304310d787f9a9400c48db310cc453d3f0560a932cb259e0ba9a84804cef187ee15864eb305c08397ee076e8a",
+          "sha256": "8a0415817a5bef61c93977d8f1361d58b36aa8cc2db200e376cb94a2702b43b3",
+          "sha1": "7ed0417aa46a93b448fd5f3c9904ee3dd0184ff4",
+          "md5": "3fc244a67ef2ac669434fd9ec8cdd218"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-2.2.4-SNAPSHOT-javadoc.jar",
+          "url": "api-2.2.4-SNAPSHOT-javadoc.jar",
+          "size": 131039,
+          "sha512": "58b317eb88412a33e8f2bf8aab342c0bdaf1877edbd434b455fe259752817d44a84c901ef4bcba2691e4ea84e9377b8c02af0b343628e97693e7dae9231f6d06",
+          "sha256": "da2e83438ce3aea6f6f5139ab0092484df4db72d789d1a8722e170689ee47c08",
+          "sha1": "0349057f2673c73127d24c32f3967c7310a63941",
+          "md5": "61f63d879c246da3b225d4c01488e82f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "api-2.2.4-SNAPSHOT-sources.jar",
+          "url": "api-2.2.4-SNAPSHOT-sources.jar",
+          "size": 31098,
+          "sha512": "0f4e16d33ab3a47affd74bcdd5bac754846aeb10f4371a65195956cf115215dfcc25515a538a0a3d43e5c10beade0470af6c8a59c1b58be126d79d4e62f5e197",
+          "sha256": "cf66b584b321ed3255af045707c50ffe29881d521c2d91cc42bca9faa492de19",
+          "sha1": "4efb23569e3eb7cb8fafea9ed02eee86d9cfb584",
+          "md5": "74c0736caf9a394a5c2be3fe8a055cd2"
+        }
+      ]
+    }
+  ]
+}

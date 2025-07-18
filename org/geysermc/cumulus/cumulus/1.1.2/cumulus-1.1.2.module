@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.geysermc.cumulus",
+    "module": "cumulus",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cumulus-1.1.2.jar",
+          "url": "cumulus-1.1.2.jar",
+          "size": 111457,
+          "sha512": "6696a42c67c76b5a5800a874b8c21e7984807d165400532470399840b2cab79a0bf831944773c656442917a2a86c3d2b2abaae7ff730a91d8645abadf95e542e",
+          "sha256": "2c2d806a782a92a4495269240f88573a452dcafa377ead3211231d3b3611a3b5",
+          "sha1": "983b930e030ffb1169331b90b5dab386cd7956cd",
+          "md5": "00b51a2dd752f83b0274df164d2dc8c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.3.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.0.1-jre"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cumulus-1.1.2.jar",
+          "url": "cumulus-1.1.2.jar",
+          "size": 111457,
+          "sha512": "6696a42c67c76b5a5800a874b8c21e7984807d165400532470399840b2cab79a0bf831944773c656442917a2a86c3d2b2abaae7ff730a91d8645abadf95e542e",
+          "sha256": "2c2d806a782a92a4495269240f88573a452dcafa377ead3211231d3b3611a3b5",
+          "sha1": "983b930e030ffb1169331b90b5dab386cd7956cd",
+          "md5": "00b51a2dd752f83b0274df164d2dc8c3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cumulus-1.1.2-javadoc.jar",
+          "url": "cumulus-1.1.2-javadoc.jar",
+          "size": 654771,
+          "sha512": "08d6d4023b9c30ba6ff4a1899ac5d87ae86aaa1b3923581ba6becfd989ca0d93623bae581aeafba98ed3d70addb4b0f4b029a835fdcd7f66a146d2bccfbfa684",
+          "sha256": "f3ad953344cc2a2886e67fea36045a3574fdfaa236fccae90724c1637dd3b663",
+          "sha1": "ad50f34224fc84a1146f5f4bae846c6240d9f5ba",
+          "md5": "0260ebdc84cb097eca0899dc6420b7cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cumulus-1.1.2-sources.jar",
+          "url": "cumulus-1.1.2-sources.jar",
+          "size": 104701,
+          "sha512": "d61e925ad9880f43e729429736e49ec09fb6e8c923160c385c1eac5e88046ee0783083f778fe419497b47538d66befd854da74357efc4e835659e7e5a79b50d2",
+          "sha256": "3620a8686c8b7e016f9bff9251993cd00d8249f46e02bfde04293044f021a3db",
+          "sha1": "4d42258991a4e95035c673b7f3c906a385a5142c",
+          "md5": "a7818fc465fa133c1f796bfbb0b85305"
+        }
+      ]
+    }
+  ]
+}
