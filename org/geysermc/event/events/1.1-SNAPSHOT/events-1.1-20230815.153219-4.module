@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.geysermc.event",
+    "module": "events",
+    "version": "1.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "events-1.1-SNAPSHOT.jar",
+          "url": "events-1.1-SNAPSHOT.jar",
+          "size": 23017,
+          "sha512": "fba23fce2aa30c8b94f3081601b9744848e9f544a15d4daf9dcd5f521ba5a387700a69c3d974389a7e460e4130e28e465ee0f451ccba813ce29adadf2df34647",
+          "sha256": "2d3530f40e64a7590e6f3129eb1edd2b4169793d397265c15d9709a248e60231",
+          "sha1": "3e2ba7f1df7f01375e727bcda8bb9f82b2ff25b6",
+          "md5": "00e0e1d4941d11a2c9e1ad60799a88b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "17.0"
+          }
+        },
+        {
+          "group": "org.lanternpowered",
+          "module": "lmbda",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "events-1.1-SNAPSHOT.jar",
+          "url": "events-1.1-SNAPSHOT.jar",
+          "size": 23017,
+          "sha512": "fba23fce2aa30c8b94f3081601b9744848e9f544a15d4daf9dcd5f521ba5a387700a69c3d974389a7e460e4130e28e465ee0f451ccba813ce29adadf2df34647",
+          "sha256": "2d3530f40e64a7590e6f3129eb1edd2b4169793d397265c15d9709a248e60231",
+          "sha1": "3e2ba7f1df7f01375e727bcda8bb9f82b2ff25b6",
+          "md5": "00e0e1d4941d11a2c9e1ad60799a88b4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-1.1-SNAPSHOT-javadoc.jar",
+          "url": "events-1.1-SNAPSHOT-javadoc.jar",
+          "size": 388113,
+          "sha512": "efea7ad015613408ec34c25125586f2ad3521c3a25a52c78f94284cf755bcd82d0c17d2c890f537961c32efb919eaba55fb55e096b6bbb5be4b87a44ca128ca9",
+          "sha256": "5a007f76324cf50f45f4cc6fc8e22bbe9a194ea74ec6d07291abddfca40f206e",
+          "sha1": "104ab253cc0754508162fc96b7dcf66b05f99149",
+          "md5": "e4c730ba621a99c82b9e33e7facc3578"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "events-1.1-SNAPSHOT-sources.jar",
+          "url": "events-1.1-SNAPSHOT-sources.jar",
+          "size": 27636,
+          "sha512": "acba39d8e0eaf15eb4844909569ba21179e73c6c4193c1c9aa5ef95d0c77e62e2f8ebae33cef0f784066fb4f394fb3c59c8809f359d63b8453db1c1a5f107692",
+          "sha256": "29347fc616b91cb58f00f68c0f3bfc513e7d51af5341672a513bd8104098f26c",
+          "sha1": "0a35a9b1c41a53dbbbe8bcf68c863bc8b9ed854f",
+          "md5": "a0fd752fc91743561e55fcc9011c622c"
+        }
+      ]
+    }
+  ]
+}
